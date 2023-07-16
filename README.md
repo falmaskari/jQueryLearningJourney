@@ -1,6 +1,6 @@
 # jQueryLearningJourney
 
-<h3>📅 <b>jQuery History</b></h3>
+## 📅 jQuery History
 
 jQuery established by John Resig in August 2006. 🌟 Initially, It's created to simplify JavaScript programming and providing a more easy and consistent way for interacting with HTML documents.
 
@@ -9,7 +9,7 @@ jQuery established by John Resig in August 2006. 🌟 Initially, It's created to
 💡 jQuery gained popularity among web developers quickly due to it's powerful and intuitive way for working with HTML, manipulating the DOM, handling events, performing animations, and simplifing AJAX requests. It helped bridge the gaps between various browsers and made web development more accessible. ✨
 
 
-<h3><b>jQuery Library Features</b></h3>
+## jQuery Library Features
 
 🌐 <b>DOM Manipulation:</b> jQuery allows manipulating Document Object Model (DOM) easily which makes selecting and modifying HTML elements simply.
 
@@ -20,3 +20,15 @@ jQuery established by John Resig in August 2006. 🌟 Initially, It's created to
 🔗 <b>AJAX:</b> Asynchronous JavaScript and XML (AJAX) is a technique which is used for sending and receiving data from a server without refresh the entire page. jQuery simplifies AJAX requests via providing methods for performing HTTP requests, handling responses, and updating page content dynamically.
 
 🔍 <b>DOM Traversal:</b> jQuery offers powerful methods to navigate and selecte elements based on their relationships with other elements in the DOM tree. Parent, child, sibling, or descendant elements can be selected easily.
+
+## Including jQuery
+
+Including jQuery way:
+
+### Browser
+
+#### Script tag
+
+```html
+<script src="./static/js/code.jquery.com_jquery-3.7.0.js"></script>
+```
