@@ -1,0 +1,36 @@
+.box{
+    width: 100px;
+    height: 100px;
+    background-color: red;
+}
+
+.box1{
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    display: none;
+}
+
+.box2{
+    width: 100px;
+    height: 100px;
+    background-color: red;
+}
+
+.box3{
+    width: 100px;
+    height: 100px;
+    background-color: pink;
+}
+
+.top{
+    width: 5px;
+    height: 5px;
+    background-color: black;
+}
+
+.box4{
+    width: 100px;
+    height: 100px;
+    background-color: pink;
+}
