@@ -1,0 +1,144 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+    line-height: 0.5;
+}
+body{
+    background-color: rgb(248, 248, 248);
+}
+.navbar{
+    height:54px;
+    /* max-width: 1170px; */
+    background-color: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.navbar{
+    margin-right: auto;
+    margin-left: auto;
+    padding-left: 143px;
+    padding-right: 143px;
+}
+.a p{
+    font-size: 30px;
+    font-weight: 800;
+    text-transform: uppercase;
+    color: rgb(0, 170, 176);
+}
+.nav li{
+    list-style-type: none;
+    float: left;
+}
+a{
+    text-decoration: none;
+    color: rgb(170, 170, 170);
+    font-size: 12px;
+    font-weight: 600;
+    text-transform: uppercase;
+    padding: 10px 15px;
+}
+.contact a{
+    background: rgb(0, 170, 176);
+    color: #fff;
+    font-weight: 500;
+    border-radius: 8px;
+}
+a:hover{
+    color: rgb(0, 170, 176);
+}
+.contact a:hover{
+    color: #fff;
+}
+p{
+    font-weight: 400;
+	font-family: 'Poppins', sans-serif;
+    margin: 0;
+    font-size: 15px;
+    color: #333333;
+    letter-spacing: 0;
+}
+
+/* Tasks Div Section Start */
+.tasks{
+    width: 1000px;
+    height: 1000px;
+}
+/* Tasks Div Section End */
+
+/* Task1 Section Start */
+.main{
+    height: 700px;
+    transform: translate(45%, 15%);
+}.img1{
+    height: 400px;
+    width: 500px;
+
+}
+.childImg{
+    height: 700px;
+    width: 500px;
+    display: flex;
+    justify-content: space-between;
+}
+.childImg .img{
+    height: 125px;
+    width: 167px;
+    
+}
+/* Task1 Section End */
+
+/* Task2 Section Start */
+.root{
+    height: 700px;
+    transform: translate(45%, 15%);
+}
+.slider{
+    height: 400px;
+    width: 500px;
+    overflow: hidden;
+}
+.slider img{
+    height: 100%;
+    width: 100%;
+    display: none;
+    
+}
+.slider .show{
+    display: inline-block;
+}
+.buttons{
+    height: 50px;
+    width: 500px;
+    display: flex;
+    justify-content: center;
+}
+.buttons button{
+    margin: 10px 10px 0px;
+}
+/* Task2 Section End */
+
+/* Task3 Section Start */
+.root-1{
+    height: 700px;
+    transform: translate(45%, 15%);
+}
+.slider-1{
+    height: 400px;
+    width: 500px;
+    overflow: hidden;
+    transition: infinite;
+}
+.slider-1 img{
+    height: 100%;
+    width: 100%;
+    display: none;
+    
+}
+.slider-1 .show-1{
+    display: inline-block;
+}
+/* Task3 Section End */
+
